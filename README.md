@@ -1,0 +1,3 @@
+# Rust Raw Pointer Vector Modification Bug
+
+This repository demonstrates a common error in Rust involving modifying a vector through a raw pointer after the vector has been reallocated. The original code attempts to directly modify the vector's elements using a raw pointer, leading to undefined behavior and potential panics when the vector's capacity is exceeded. The solution showcases a safe and correct approach that avoids potential memory safety violations.
